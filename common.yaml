@@ -199,12 +199,13 @@ components:
       type: string
       title: Code_RelationType
       description: |
-        Värdeförråd för olika typer av relationer till en elev.
+        Värdeförråd som skall användas för olika typer av relationer till ett barn eller en elev.
       enum:
         - Vårdnadshavare
         - Annan ansvarig
+        - Annan behörig
         - God man
-        - Utsedd behörig
+        - Förälder
 
     AbsenceEnum:
       type: string
